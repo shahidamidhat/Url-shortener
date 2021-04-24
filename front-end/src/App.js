@@ -15,7 +15,7 @@ function App() {
 			<Switch>
 				<Route path='/' component={Registration} exact />
 				<Route path='/login' component={Login} exact />
-				<Route path='/shortener/:id' component={Main} exact />
+				<Route path='/yourdashboard/:id' component={Main} exact />
 			</Switch>
 		</Router>
     </body>
